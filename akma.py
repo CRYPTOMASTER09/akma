@@ -41,7 +41,7 @@ def header():
     print("")
 
 API_CONFIG = {
-    "BASE_URL": "https://api.app.ton.tsubasa-rivals.com/api",
+    "BASE_URL": "https://api.app.ton.akma-rivals.com/api",
     "ENDPOINTS": {
         "START": "/start",
         "TAP": "/tap",
