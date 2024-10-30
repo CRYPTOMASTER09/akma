@@ -92,7 +92,7 @@ def process_with_loading(func, message="Processing"):
         print("\r" + " " * (len(message) + 15) + "\r", end='', flush=True)
         raise e
 
-class TsubasaAPI:
+class akmaAPI:
     def __init__(self):
         self.mobile_user_agents = [
             "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1",
